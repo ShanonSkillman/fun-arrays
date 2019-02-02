@@ -189,8 +189,6 @@ var higherStateSums = Object.keys(stateSums).reduce((sum, c) => {
   return sum;
 }, 0);
 
-
-
 /*
   Stretch Goal && Final Boss
 
@@ -206,11 +204,9 @@ var higherStateSums = Object.keys(stateSums).reduce((sum, c) => {
   otherwise set it to be `false`
  */
 
-var areStatesInHigherStateSum = ['WI', 'IL', 'WY', 'OH', 'GA', 'DE'].some(
-  state => stateSums[state] > 2550000
-);
-
-
+// var areStatesInHigherStateSum = ['WI', 'IL', 'WY', 'OH', 'GA', 'DE'].some(
+//   state => stateSums[state] > 2550000
+// );
 
 var anyStatesInHigherStateSum = (module.exports = {
   hundredThousandairs: hundredThousandairs,
